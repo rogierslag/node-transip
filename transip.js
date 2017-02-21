@@ -12,6 +12,8 @@ var utils = require('./utils'),
     config = require('./config');
 
 var domainService = require(__dirname + '/lib/domainService');
+var haipService = require(__dirname + '/lib/haipService');
+var vpsService = require(__dirname + '/lib/vpsService');
 
 /**
  * TransIP instance constructor
@@ -26,6 +28,8 @@ function TransIP(login, privateKey) {
   this.privateKey = (privateKey ? privateKey : config.transip.privateKey);
 
   this.domainService = new domainService(this);
+  this.haipService = new haipService(this);
+  this.vpsService = new vpsService(this);
 }
 
 /**
