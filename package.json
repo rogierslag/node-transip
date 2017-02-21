@@ -7,7 +7,7 @@
     "test-integration": "node test/run integration",
     "test-int": "node test/run integration"
   },
-  "name": "transip",
+  "name": "transip-node",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.6.2",
@@ -29,14 +29,14 @@
     "sinon-chai": "^2.6.0"
   },
   "description": "Node.JS Promise-based library to communicate with the TransIP API",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "main": "transip.js",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DualDev/node-transip.git"
+    "url": "https://github.com/rogierslag/node-transip.git"
   },
   "keywords": [
     "transip",
@@ -46,9 +46,9 @@
     "trans",
     "ip"
   ],
-  "author": "Chase Sillevis <chase@sillevis.net> (http://chase.sillevis.net/)",
+  "author": "Rogier Slag",
   "bugs": {
-    "url": "https://github.com/DualDev/node-transip/issues"
+    "url": "https://github.com/rogierslag/node-transip/issues"
   },
-  "homepage": "https://github.com/DualDev/node-transip"
+  "homepage": "https://github.com/rogierslag/node-transip"
 }

@@ -32,3 +32,5 @@ config/data.js
 
 # NPM logs
 npm-debug.log
+
+index.js
